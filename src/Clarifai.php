@@ -32,14 +32,13 @@ class Clarifai
     private $request;
 
     /**
-     * Clarifai constructor
+     * Clarifai constructor.
      *
-     * @param string $clientId The client ID
-     * @param string $clientSecret The client secret
+     * @param string $apiKey The API key
      */
-    public function __construct($clientId, $clientSecret)
+    public function __construct($apiKey)
     {
-        $this->request = new RequestHandler($clientId, $clientSecret);
+        $this->request = new RequestHandler($apiKey);
     }
 
     /**

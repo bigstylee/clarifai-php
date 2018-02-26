@@ -1,6 +1,6 @@
 {
-  "name": "darrynten/clarifai-php",
-  "description": "PHP Client for the Clarifai API",
+  "name": "bigstylee/clarifai-php",
+  "description": "PHP Client for the Clarifai API - forked version from darrynten/clarifai-php with support for API keys",
   "type": "library",
   "require": {
     "php": "^7.0",
